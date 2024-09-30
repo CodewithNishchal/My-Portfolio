@@ -1,0 +1,194 @@
+.header
+{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./header\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.profile_photo
+{
+    height: 28vh;
+        width: 23vh;
+    border-radius: 50%;
+}
+
+.myphoto
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main_me
+{
+    display: grid;
+    grid-template-rows: 30% 30vh 1fr;
+    grid-template-columns: 100%;
+    font-weight: bolder;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 22px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.main_me > #my
+{
+    background: linear-gradient(90deg, #00c6ff, #0072ff, #00ff72);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.re_pr
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume
+{
+    display: inline-block;
+    margin-top: 20px;
+    width: 49%;
+    border-radius: 20px;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(103deg, rgba(238, 238, 238, 1) 17%, rgba(129, 242, 253, 1) 100%);
+    /* text-align: center; */
+}
+
+#resume_projects
+{
+    font-family:"Playwrite DE Grund", cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 10px;
+    /* text-decoration: underline; */
+}
+
+.grid_resume
+{
+    display: grid;
+    grid-template: 1fr 200px / 1fr 2fr;
+}
+
+.grid_resume>.skills
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid_resume > .work_experience
+{
+    grid-column: span 2;
+}
+
+.grid_resume > *
+{
+    background: rgb(239, 244, 245);
+    background: linear-gradient(103deg, rgba(239, 244, 245, 1) 0%, rgba(61, 217, 233, 1) 100%);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.heading
+{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.list
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.skill_subhead
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.projects
+{
+    display: inline;
+}
+
+.project {
+    display: inline-block;
+    margin-top: 20px;
+    width: 49%;
+    border-radius: 20px;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(103deg, rgba(238, 238, 238, 1) 17%, rgba(129, 242, 253, 1) 100%);
+    /* text-align: center; */
+}
+
+.Project_divs
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.Contact_me
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact_box
+{
+    margin-top: 40px;
+    width: 40%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(277deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 90px;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_box > #text
+{
+    font-family: "Playwrite DE Grund",cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.butt
+{
+    border: none;
+    /* background-color: #0072ff; */
+    font-size: large;
+    font-family: "Playwrite DE Grund",cursive;
+    border-radius: 400px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(277deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+}
+
+.foot{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    
+}
+
+.foot >  a
+{
+    color: rgb(35, 44, 170);
+}
